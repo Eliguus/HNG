@@ -1,0 +1,38 @@
+* {
+  margin: auto;
+}
+/* Style for the Slack username */
+[data-testid="slackUserName"] {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Style for the Slack display image */
+[data-testid="slackDisplayImage"] {
+  max-width: 200px;
+  border: 2px solid #333;
+  border-radius: 50%;
+}
+
+/* Style for the current day of the week */
+[data-testid="currentDayOfTheWeek"] {
+  font-size: 18px;
+  color: #777;
+  margin-top: 20px;
+}
+
+/* Style for the current UTC time */
+[data-testid="currentUTCTime"] {
+  font-size: 18px;
+  color: #777;
+  margin-top: 10px;
+}
+
+/* Style for the track */
+[data-testid="myTrack"] {
+  font-size: 20px;
+  font-weight: bold;
+  color: #007bff;
+  margin-top: 30px;
+}
